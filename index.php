@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <main>
+  <!-- test version 0.0.9 -->
   <h2><?php the_title(); ?></h2>
   <div class="content">
     <?php
