@@ -47,7 +47,7 @@ add_action('after_setup_theme', 'register_my_menu');
 // Import sécurisé des fichiers supplémentaires
 if (defined('ABSPATH')) {
   $carousel_file = get_template_directory() . '/includes/customizer-carousel.php';
-  $changelog_file = get_template_directory() . '/includes/changelog.php';
+  require_once get_template_directory() . '/includes/changelog.php';
 
   if (file_exists($carousel_file)) {
     require_once $carousel_file;
