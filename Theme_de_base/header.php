@@ -11,6 +11,12 @@
   <header>
 <!--     <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
     <p><?php bloginfo('description'); ?></p> -->
+    <div class="logo" >
+      <a href="<?php echo home_url(); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/asset/img/logo.png" alt="<?php bloginfo('name'); ?>">
+      </a>
+
+    </div>
     <nav class="menu-principal">
   <?php
   wp_nav_menu([
