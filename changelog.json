@@ -1,6 +1,17 @@
 {
     "changelog": [
         {
+            "version": "0.1.81",
+            "date": "2025-04-08",
+            "notes": [
+                "Ajout d’un menu responsive",
+                "ajout du header",
+                "Ajout du système de changelog",
+                "ajout de la page du change log dans WordPress",
+                "test de l'affichage du changelog dans WP"
+            ]
+        }
+        {
             "version": "0.1.80",
             "date": "2025-04-08",
             "notes": [
