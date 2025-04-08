@@ -4,7 +4,7 @@ Theme URI: https://pulsecrea.fr
 Author: PulseCrea
 Author URI: https://pulsecrea.fr
 Description: Thème WordPress personnalisé pour sites vitrines développé par PulseCrea.
-Version: 0.1.70
+Version: 0.1.78
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: theme_de_base
@@ -24,13 +24,6 @@ Tags: vitrine, responsive, personnalisé, clair, SEO-friendly
 .menu li {
     display: inline-block;
 }
-
-/* .menu a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    transition: color 0.3s ease;
-} */
 
 .container{
     display: flex;
